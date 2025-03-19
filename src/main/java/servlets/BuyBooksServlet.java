@@ -46,7 +46,7 @@ public class BuyBooksServlet extends HttpServlet {
                     "				<th>Avail</th>\r\n" +
                     "				<th>Qty</th>\r\n" +
                     "			</tr>");
-            int i = 0;
+            int i = 1;
             for (Book book : books) {
                 String bCode = book.getBarcode();
                 String bName = book.getName();
